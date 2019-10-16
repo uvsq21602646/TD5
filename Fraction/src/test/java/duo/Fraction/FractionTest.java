@@ -20,7 +20,6 @@ public class FractionTest
 
   }
 
-
 	@Test
 	public void testInit2() {
 		Fraction test = new Fraction(6);

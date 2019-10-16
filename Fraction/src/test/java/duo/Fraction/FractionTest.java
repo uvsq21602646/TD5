@@ -35,7 +35,8 @@ public class FractionTest
 	public void toStringTest() {
 		Fraction test =  new Fraction(1,2);
 		assertTrue(test.toString().equals("Fraction num=1, den=2 "));
-
+	}
+	
 	@Test
 	public void testGetNum(){
 		int n = 2;

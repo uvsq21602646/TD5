@@ -25,4 +25,10 @@ public class FractionTest
 		Fraction test = new Fraction(6);
 		assertNotNull(test);
 	}
+	@Test
+	public void testInit3() {
+		Fraction test = new Fraction();
+		assertNotNull(test);
+	}
+
 }

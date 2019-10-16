@@ -1,11 +1,17 @@
 package duo.Fraction;
 
-import org.junit.* ;
+import org.junit.*;
 
-public class FractionTest
+public class FractionTest 
 {
-  @Test
+	
+   @Test
   public void TestInitI(){
 
   }
+  
+	@Test
+	public void testInit2() {
+		
+	}
 }

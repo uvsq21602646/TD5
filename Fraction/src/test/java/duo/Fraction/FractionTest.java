@@ -46,4 +46,12 @@ public class FractionTest
 		Fraction tf = new Fraction(n, d);
 		assertEquals(d, tf.getDen());
 	}
+
+	@Test
+	public void testRes(){
+		double res;
+		Fraction tf = new Fraction(1,2);
+		res = tf.getRes();
+		assertEquals(1/2, res, 0);
+	}
 }

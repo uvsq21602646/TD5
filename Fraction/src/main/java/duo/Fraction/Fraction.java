@@ -34,4 +34,9 @@ public class Fraction {
 	public int getDen(){
 		return this.den;
 	}
+
+	public double getRes(){
+		double res = this.num/this.den;
+		return res;
+	}
 }
